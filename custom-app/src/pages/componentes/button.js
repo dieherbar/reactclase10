@@ -1,6 +1,6 @@
 export default function Button(){
     return (
-        <button>
+        <button className="boton">
         El Boton de React
         </button>
     );

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from './componentes/button'
 import Card from './componentes/card'
-import data from './data/data.js'
+import Tarjeta from './componentes/cardPrueba'
 
 
 export default function Home() {
@@ -18,7 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         Hello World!!!
         <Card></Card>
-        <Button/>
+        <Button />
+        <Tarjeta ></Tarjeta>
       </main>
     </>
   )
