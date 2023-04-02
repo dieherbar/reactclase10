@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from './componentes/button'
 import Card from './componentes/card'
+import data from './data/data.js'
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         Hello World!!!
-        <Card />
+        <Card></Card>
         <Button/>
       </main>
     </>

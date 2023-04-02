@@ -1,12 +1,3 @@
-const fullData = ["a","b","c"];
-
-// function text(){
-//     let text = "ke hace?";
-//     return(
-//     <text>
-//         text;
-//     </text>
-// ); 
-// };
+const fullData = ["elemento 0 del array","elemento 1","elemento 2"];
 
 export default fullData;

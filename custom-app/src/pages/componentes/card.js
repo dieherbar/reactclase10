@@ -1,18 +1,12 @@
-import Button from "./button.js";
 import fullData from "../data/data.js";
+const data = fullData;
+data.title = fullData[1];
+data.text = fullData[0];
 
-export default function Card(){
-    // const data = "yo ke se";
-    const data = (fullData.forEach(text => {
-         text.length
-        }
-    ));
-    //const magic = () => new Date();
-    return(
-    <span>
-        {data.text}
-        {/* {fullData.length} */}
-        
+export default function Card() {
+    return (
+        <span>
+            {data.text}
         </span>
     );
 }
